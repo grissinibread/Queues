@@ -11,10 +11,25 @@ public class Main {
 
         queue.dequeue();
         queue.enqueue(60);
+        queue.dequeue();
+        queue.dequeue();
 
         System.out.println(queue);
 
-        System.out.println(queue.peek());
+        QueueStack queueStack = new QueueStack();
+
+        queueStack.add(10);
+        queueStack.add(20);
+        queueStack.add(30);
+        queueStack.add(40);
+        queueStack.add(50);
+
+        queueStack.pop();
+        queueStack.add(60);
+        queueStack.pop();
+        queueStack.pop();
+
+        System.out.println(queueStack);
     }
 
 //    public static void reverse(Queue<Integer> queue) {
