@@ -23,7 +23,7 @@ public class LinkedListQueue {
 
     //peek
     public int peak(){
-        return items.getLast();
+        return items.getFirst();
     }
 
     //size
