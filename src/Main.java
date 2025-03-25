@@ -1,14 +1,20 @@
+import java.util.ArrayDeque;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Main {
     public static void main(String[] args) {
-        PriorityQueue priorityQueue = new PriorityQueue();
+        LinkedListQueue queue = new LinkedListQueue();
+//        queue.enqueue(7);
+//        queue.enqueue(8);
+//        queue.enqueue(9);
+//        queue.enqueue(1);
+//        queue.dequeue();
+//        System.out.println(queue.peak());
+//        System.out.println(queue.size());
+        System.out.println(queue.isEmpty());
 
-        priorityQueue.insert(1);
-        priorityQueue.insert(2);
-        priorityQueue.insert(4);
-        priorityQueue.insert(5);
-
-
-        System.out.println(priorityQueue);
+        System.out.println(queue);
     }
 
 //    public static void reverse(Queue<Integer> queue) {
